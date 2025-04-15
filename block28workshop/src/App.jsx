@@ -23,6 +23,11 @@ function App() {
           <Route path="/red" element={<Red/>} />
         </Routes>
       </div>
+      <div id="footer">
+        <Link to="/">Home</Link>
+        <Link to="/blue">Blue</Link>
+        <Link to="/red">Red</Link>
+      </div>
     </div>
     </>
   )

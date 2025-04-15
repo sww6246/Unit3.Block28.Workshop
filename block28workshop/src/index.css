@@ -15,6 +15,7 @@ body > div {
   display: flex;
 }
 #navbar {
+  background-color: darkgrey;
   padding: 2em;
   justify-content: space-evenly;
 }
@@ -39,4 +40,22 @@ body > div {
 .home {
   background-color: aquamarine;
   color: black;
+}
+
+a {
+  color: #002A54;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 25px;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #FFC906;
+}
+
+#footer {
+  position: sticky;
+  background-color: darkgrey;
+  padding: 2em;
+  justify-content: space-evenly;
 }
